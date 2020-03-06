@@ -1,0 +1,22 @@
+{
+  "name": "nginx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaolongyu/node-nginx.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhaolongyu/node-nginx/issues"
+  },
+  "homepage": "https://github.com/zhaolongyu/node-nginx#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

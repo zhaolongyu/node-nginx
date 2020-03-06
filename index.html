@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <button Onclick="getKo()">向服务器发送请求Ko(跨域成功)</button>
+    <button Onclick="getBo()">向服务器发送请求Bo(跨域失败)</button>
+	<div id='test-response-text'>显示服务器响应内容<div>
+<script>
+class getKb {
+	constructor (Demo, url1) {
+		this.url = url1
+		this.request = new XMLHttpRequest()
+		this.textDemo = document.getElementById(Demo)
+		this.init()
+	}
+	init () {
+		this.request.onreadystatechange =  ()=> { // 状态发生变化时，函数被回调
+		if (this.request.readyState === 4 && this.request.status === 200) { // 成功完成
+        // 成功，通过responseText拿到响应的文本:
+        let text = this.request.responseText
+        this.textDemo.innerHTML = text
+		}	
+    }
+    // 发送请求:
+    this.request.open('GET', this.url, true)
+    this.request.send()
+  }
+}
+function getKo(){
+	new getKb('test-response-text', 'http://localhost:3002/ko')
+}
+function getBo(){
+	new getKb('test-response-text', 'http://localhost:3002/Bo')
+}
+
+    </script>
+</body>
+</html>

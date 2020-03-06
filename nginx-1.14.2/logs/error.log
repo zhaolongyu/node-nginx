@@ -1,0 +1,15 @@
+2020/03/05 18:06:09 [emerg] 17744#7004: unexpected "}" in D:\procedure\pp\nginx\nginx-1.14.2/conf/nginx.conf:20
+2020/03/05 18:06:38 [emerg] 1240#9268: unexpected "}" in D:\procedure\pp\nginx\nginx-1.14.2/conf/nginx.conf:20
+2020/03/06 09:10:50 [emerg] 25304#9456: unexpected "}" in D:\procedure\pp\nginx\nginx-1.14.2/conf/nginx.conf:18
+2020/03/06 09:11:12 [emerg] 8380#8840: unexpected "}" in D:\procedure\pp\nginx\nginx-1.14.2/conf/nginx.conf:18
+2020/03/06 09:12:06 [emerg] 9500#1932: unexpected "}" in D:\procedure\pp\nginx\nginx-1.14.2/conf/nginx.conf:18
+2020/03/06 09:18:26 [emerg] 24140#7044: unexpected "}" in D:\procedure\pp\nginx\nginx-1.14.2/conf/nginx.conf:30
+2020/03/06 09:18:37 [emerg] 10896#20556: unexpected "}" in D:\procedure\pp\nginx\nginx-1.14.2/conf/nginx.conf:30
+2020/03/06 09:19:52 [emerg] 8336#8160: unexpected "}" in D:\procedure\pp\nginx\nginx-1.14.2/conf/nginx.conf:30
+2020/03/06 09:40:41 [emerg] 3844#12164: unexpected end of file, expecting "}" in D:\procedure\pp\nginx\nginx-1.14.2/conf/nginx.conf:41
+2020/03/06 09:41:02 [emerg] 11024#24888: unexpected end of file, expecting "}" in D:\procedure\pp\nginx\nginx-1.14.2/conf/nginx.conf:41
+2020/03/06 10:01:13 [emerg] 19300#13040: unexpected "}" in D:\procedure\pp\nginx\nginx-1.14.2/conf/nginx.conf:21
+2020/03/06 10:08:39 [emerg] 24032#9544: invalid URL prefix in D:\procedure\pp\nginx\nginx-1.14.2/conf/nginx.conf:25
+2020/03/06 10:08:41 [emerg] 19940#8696: invalid URL prefix in D:\procedure\pp\nginx\nginx-1.14.2/conf/nginx.conf:25
+2020/03/06 10:08:42 [emerg] 11384#11704: invalid URL prefix in D:\procedure\pp\nginx\nginx-1.14.2/conf/nginx.conf:25
+2020/03/06 10:08:58 [emerg] 6816#6716: invalid URL prefix in D:\procedure\pp\nginx\nginx-1.14.2/conf/nginx.conf:25
